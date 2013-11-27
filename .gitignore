@@ -1,5 +1,6 @@
 .project
 /.idea
+/app/config/database.php
 /app/tmp
 /app/tmp/*
 # /app/webroot/files/uploads
