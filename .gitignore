@@ -1,5 +1,8 @@
 .project
+Capfile
 /.idea
+/config
+/config/*
 /app/config/database.php
 /app/tmp
 /app/tmp/*
