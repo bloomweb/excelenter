@@ -1,0 +1,8 @@
+.project
+/.idea
+/app/tmp
+/app/tmp/*
+# /app/webroot/files/uploads
+# /app/webroot/files/uploads/*
+# /app/webroot/img/uploads
+# /app/webroot/img/uploads/*

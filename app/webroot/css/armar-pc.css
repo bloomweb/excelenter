@@ -1,0 +1,465 @@
+#aplicacion{
+	background-image: url(/img/trama_aplicacion.png);
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	padding-bottom: 15px;
+	padding-left: 5px;
+}
+.tabs { 
+	list-style:none; 
+	margin:0 !important; 
+	padding:0;
+	height:30px;
+	
+}
+
+.tabs li { 
+	float:left;	 
+	text-indent:0;
+	padding:0;
+	margin:0 !important;
+	list-style-image:none !important; 
+}
+.tabs div{
+	float:left;
+}
+.tabs a { 
+	background: url(/img/global/tabs.png) no-repeat -652px 0;
+	font-size:11px;
+	display:block;
+	width: 111px;
+	width:98px;
+	text-align:center;	
+	text-decoration:none;siguiente 
+	color:#000;
+	padding:0px;
+	margin:0px;	
+	position:relative;
+	top:1px;
+}
+
+.tabs a:active {
+	outline:none;		
+}
+.tabs a:hover {
+	background-position: -652px -31px;	
+	color:#fff;	
+}
+.tabs .current, .tabs .current:hover, .tabs li.current a {
+	background-position: -652px -62px;		
+	cursor:default !important; 
+	color:#000 !important;
+}
+.tabs .w1 { 
+	background-position: -519px 0; width:134px; 
+}
+.tabs .w1:hover{
+	 background-position: -519px -31px;
+}
+.tabs .w1.current {
+	 background-position: -519px -62px; 
+}
+.tabs .w2{
+	background-position: -366px -0px; width:154px;
+}
+.tabs .w2:hover{
+	background-position: -366px -31px;
+}
+.tabs .w2.current{
+	background-position: -366px -62px;
+}
+.tabs .w3{
+	background-position: -193px -0px; width:174px;
+}
+.tabs .w3:hover{
+	background-position: -193px -31px;
+}
+.tabs .w3.current{
+	background-position: -193px -62px;
+}
+.tabs .w4{
+	background-position: -0px -0px; width:194px;
+	}
+.tabs .w4:hover{
+	background-position: -0px -31px;
+}
+.tabs .w4.current{
+	background-position: -0px -62px;
+	}
+.panes .pane{
+	display:none;		
+}
+.scrollable {
+	position:relative;
+	overflow:hidden;
+	width: 100%;
+	height:115px;
+	float: left;
+}
+.scrollable .items {
+	/* this cannot be too large */
+	width:20000em;
+	position:absolute;
+}
+
+.items div {
+
+}
+.tabs.items a{
+	font-weight: bold;
+	color: #424242;
+	text-align: center;
+	margin-right: 3px;
+	height: 100px;
+	padding:2.5px;
+}
+.tabs.items a.current{
+	background-image: url(/img/trama_aplicacion_item.png);
+	background-position:bottom left;
+	background-repeat: repeat-x;
+	border:1px solid #FF7800;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+.prev{
+	float: left;
+	cursor: pointer;
+	margin-right: 15px;
+	margin-top: 25px;
+	display: block;
+	width: 21px;
+	height: 20px;
+	background-image:url(/img/atras_act.png);
+	margin-left: 15px; 
+}
+.prev.disabled{
+	background-image:url(/img/atras_inact.png); 
+}
+.next{
+	float: left;
+	cursor: pointer;
+	margin-left: 15px;
+	margin-top: 25px;
+	display: block;
+	width: 21px;
+	height: 20px;
+	background-image:url(/img/adelante_act.png); 
+}
+.next.disabled{
+	background-image:url(/img/adelante_inact.png); 
+}	
+.panes{
+	float: left;
+    min-height: 390px;
+    padding: 0;
+    width: 660px;
+    padding-bottom:10px;
+}
+#content .panes h1{
+	font-size:25px;
+	text-transform: uppercase;
+	margin-bottom:15px;
+	font-style: italic;
+}
+.panes h2{
+	margin-bottom: 6px;
+    margin-top: 14px;
+    font-style: italic;
+    font-size: 18px;
+}
+.panes .input.select{
+	margin-left:0;
+}
+.panes p{
+	font-size:11px;
+	width: 480px;
+	margin-bottom: 15px;
+	float: left;
+}
+.panes label{
+	color: #FF7800;
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+    padding-top:4px;
+    margin-bottom: 5px;
+}
+.panes .input.select{
+	background-color: transparent;
+}
+.panes select{
+	width: 135px;
+	padding-left: 5px;
+}
+.panes span{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.panes .descripcion{
+	width: 422px;
+	margin-top: 10px;
+	margin-left: 8px;
+}
+.panes input{
+	float: left;
+	clear:both;
+	
+}
+.img_wrapper{
+	width: 100%;
+	text-align: center;
+	height: 67px;
+}
+.img_wrapper img{
+	
+}
+#resumen{
+	float: right;
+    height: 400px;
+    width: 290px;
+    background-color: #e9e9e9;
+    padding-bottom:18px;
+    background-image: url(/img/trama_resumen.png);
+	background-position: top left;
+	background-repeat: repeat-y;
+
+}
+#resumen h1{
+	margin-top: 15px;
+	margin-bottom:10px;
+	margin-left: 13px;
+	margin-bottom: 15px;
+}
+.tabla-resumen-productos{
+	margin-top: 10px;
+}
+.info-producto{
+	height: 2.5em;
+}
+.categoria-producto, .nombre-total{
+	color: #FF7800;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 12px;
+}
+.nombre-total{
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+.nombre-producto{
+    font-size: 11px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+}
+.precio-total{
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 12px;
+}
+.aplicacion{
+	border: 1px solid #c4c4c4;
+	background-image: url(/img/trama_aplicacion.png);
+	background-position: bottom left;
+	background-repeat: repeat-x;
+}
+.precio{
+	width: 100%;
+	height: 170px;
+	background-color:#fff;
+	text-align: center;
+}
+.precio img{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.precio h2{
+	font-size:13px;
+	font-weight: bold;
+	color:#ff7800;
+}
+.resumen_menu ul{
+	width: 100%;
+	text-align: center;
+	background-color: #d1d1d1;
+	height: 25px;
+	padding-top: 7px;
+}
+.resumen_menu ul li{
+	display:inline;
+	margin-top: 8px;
+}
+.resumen_menu ul li a{
+	color:#000;
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 15px;
+    
+}
+.resumen_menu ul li a:hover{
+	color:#ff7800;
+}
+.resumen_productos{
+	height: 265px;
+    margin-left: 15px;
+    overflow: auto;
+    width: 91%;
+} 
+.resumen_productos h2{
+	color:#ff7800;
+	font-size: 11px;
+	margin-top: 3px;
+}
+.resumen_productos h1{
+	margin-left:0;
+	margin-bottom:0;
+	margin-top: 10px;
+	color:#000;
+}
+.imprimir-pagar-producto{
+    float: right;
+    height: 24px;
+    margin-top: 20px;
+    width: 142px;
+}
+.imprimir-pagar-producto a{
+	color: #000;
+    float: left;
+    font-weight: bold;
+    padding: 6px 15px;
+    background-image: none;
+    width: auto;
+    height: auto;
+}
+
+.imprimir-pagar-producto .pagar{
+	padding-left: 30px;
+	padding-right: 22px;
+	background-image: url(/img/carrito_resumen.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+	font-size: 14px;
+}
+.imprimir-pagar-producto a:hover{
+	color: #FF7800;
+}
+.seleccionar{
+	width: 220px;
+	float:left;
+}
+.panes .content{
+	height: 373px;
+}
+.panes .browse{
+	height:20px;
+	clear:both;
+}
+
+.browse{
+	background-color: #B5B3B1;
+    float: left;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+.browse .wrapper_browse{
+	margin: 0 auto;
+	width: 111px;
+}
+.browse a{
+	position: relative;
+}
+.siguiente_paso{
+    background-image:url(/img/siguiente_act.png);
+	display: block;
+	width:30px;
+	height:30px;
+	float:left;
+}
+.paso_anterior{
+	background-image:url(/img/atras_act.png);
+	display: block;
+	width:30px;
+	height:30px;
+	float:left;
+}
+.pagar{
+	background-image:url(/img/pagar_des.png);
+	display: block;
+	width: 30px;
+	height:30px;
+	float:left;
+}
+
+
+.browse a ul{
+	bottom: 11px;
+    opacity:0;
+    position: absolute;
+    width: 90px;
+    color: #000;
+    -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.browse .paso_anterior ul{
+	left: -264px;
+}
+.browse .siguiente_paso ul{
+	left: 252px;
+}
+.browse .pagar ul{
+	left: 265px;
+}
+.browse a ul li{
+	font-weight: bold;
+	font-size:12px;
+}
+.browse a:hover ul{
+	opacity:1;
+}
+.quantity input{
+	width: 25px;
+}
+.pc-items label{
+	float:left;
+}
+.pc-items td{
+	margin-left:5px;
+}
+.pc-error{
+	background-color: #FF7800;
+	background-color: #FF7800;
+    height: 60px;
+    text-transform:uppercase;
+    width: 100%;
+    -moz-box-shadow: 0px 1px 4px #222222;
+	-webkit-box-shadow: 0px 1px 4px #222222;
+	box-shadow: 0px 1px 4px #222222;
+}
+.pc-error p{
+	font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+}
+div.col{
+	width: 50%;
+	float:left;
+}
+.checkbox .checkbox input{
+	width: 50px;
+}
+.checkbox .checkbox label{
+	text-align: left;
+}
