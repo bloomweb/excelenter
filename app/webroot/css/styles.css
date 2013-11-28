@@ -733,7 +733,7 @@ input.input_buscar{
 	font-weight: bold;
 	font-style: italic;
 	color:#FF7800;
-	margin-bottom: 5px;
+	margin-bottom: 7px;
 	
 }
 .info_inicio{
@@ -1186,16 +1186,12 @@ span.linea_footer {
     margin-left: 28px;
     margin-top: 35px;
     padding-left: 70px;
-    width: 370px;
+    width: 465px;
     background-image: url(/img/empresa2.png);
     background-repeat: no-repeat;
     background-position: 2% 5%;
     padding-top: 5px;
     margin-bottom: 35px;
-}
-.nuestra_empresa{
-	margin-left: 40px;
-    width: 885px;
 }
 .nuestra_empresa.ultimo{
 	margin-bottom: 50px;
@@ -1229,4 +1225,36 @@ span.linea_footer {
 	background: linear-gradient(top, #ff7800 1%,#d96700 99%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7800', endColorstr='#d96700',GradientType=0 ); /* IE6-9 */
 	font-weight: bold;
+}
+.descargar{
+	color: #0092B3;
+}
+#content .nuestros_servicios{
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: normal;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 8px;
+	margin-bottom: 15px;
+}
+.servicios_container{
+	margin-bottom: 50px;
+}
+.servicios_container h2{
+	background: #0092B3;
+	padding: 13px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: -30px;
+}
+.servicios_container p{
+	padding: 16px;
+	background: #e7e7e7;
+	line-height: 17px;
+}
+#main_content a{
+    color:#FF7800;
 }

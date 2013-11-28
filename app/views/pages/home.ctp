@@ -65,32 +65,34 @@
 </style>
 <div class="slider">
 	<div>	
-		<a href="/pages/venta-de-software/">
+		<a href="/servicios#venta_hardware">
 			<img src="/img/banners/slide1.jpg"/>	
 		</a>
 	</div>
 	<div>
-		<a href="/pages/mantenimiento/">
+        <a href="/servicios#mantenimiento">
 			<img src="/img/banners/slide2.jpg"/>	
 		</a>
 	</div>
-	<div>	
-		<a href="/pages/servicio-a-domicilio/">
+	<div>
+        <a href="/servicios#domicilios">
 			<img src="/img/banners/slide4.jpg"/>
 		</a>		
 	</div>
+    <!--
 	<div>	
 		<a href="/pages/tienda-virtual/">
 			<img src="/img/banners/slide3.jpg"/>
 		</a>		
 	</div>
+	-->
 	<span style="display:block;clear:both;"></span>
 </div>
 <div class="slidetabs">
   <a href="#"></a>
   <a href="#"></a>
   <a href="#"></a>
-  <a href="#"></a>
+  <!--<a href="#"></a>-->
 </div>
 <script type="text/javascript">
 	$(function(){

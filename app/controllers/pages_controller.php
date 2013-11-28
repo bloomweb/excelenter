@@ -2,7 +2,7 @@
 class PagesController extends AppController {
 
 	var $name = 'Pages';
-	function display() {
+/*	function display() {
 		$path = func_get_args();
 
 		$count = count($path);
@@ -23,7 +23,7 @@ class PagesController extends AppController {
 		$this -> layout = "default";
 		$this -> set(compact('page', 'subpage', 'title_for_layout'));
 		$this -> render(implode('/', $path));
-	}
+	}*/
 	function view($slug = null) {
 		if (!$slug) {
 			$this -> Session -> setFlash(__('Invalid page', true));
@@ -48,10 +48,15 @@ class PagesController extends AppController {
 		$this -> layout = "personaliza";
 	}
 	function servicios() {
-		$this -> layout = "personaliza";
+
+		$this -> layout = "default";
+	}
+	function lista_precios() {
+
+		$this -> layout = "default";
 	}
 	function empresa() {
-		$this -> layout = "personaliza";
+		$this -> layout = "default";
 	}
 	function pague_seguro() {
 		$this -> layout = "personaliza";

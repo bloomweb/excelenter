@@ -30,7 +30,8 @@
 	Router::connect('/', array('controller' => 'pages', 'action' => 'home'));
 	Router::connect('/empresa', array('controller' => 'pages', 'action' => 'view', 'empresa'));
 	Router::connect('/contacto', array('controller' => 'pages', 'action' => 'contacto'));
-	Router::connect('/servicios', array('controller' => 'pages', 'action' => 'view', 'servicios'));
+	Router::connect('/servicios', array('controller' => 'pages', 'action' => 'servicios'));
+    Router::connect('/listas-de-precios', array('controller' => 'pages', 'action' => 'lista_precios'));
 	Router::connect('/proceso-de-pago', array('controller' => 'pages', 'action' => 'view', 'proceso-de-pago'));
 	Router::connect('/politicas-de-garantia', array('controller' => 'pages', 'action' => 'view', 'politicas-de-garantia'));
 	Router::connect('/quienes-somos', array('controller' => 'pages', 'action' => 'view', 'quienes-somos'));
@@ -50,7 +51,7 @@
 	//ARMA TU PC
 	Router::connect('/mi-pc', array('controller' => 'makePc', 'action' => 'armaTuComputador'));
 	
-	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'view'));
+	//Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'view'));
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */

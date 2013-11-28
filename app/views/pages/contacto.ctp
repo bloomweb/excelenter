@@ -24,7 +24,18 @@
 		<div class='confirm-message' style='visibility: hidden'> tu mensaje ha sido enviado</div>
 	</form>
 	</div>
-	
+<br >
+<div class="info_inicio ultimo">
+    <img alt="Nuestra Ubicación" style='float:left; margin-right:20px;' src="http://maps.googleapis.com/maps/api/staticmap?maptype=normal&zoom=15&size=320x225&sensor=true&markers=icon:http://chart.googleapis.com/chart?=|<?php echo "3.466288678446261" ?>,<?php echo "-76.52737259864807" ?>" />
+    <h1>Nuestras Tiendas</h1>
+    <p>
+        Excelenter se encuentran en el Centro Comercial La Pasarela locales 225 y 266 .
+        <br /><br /> Atendemos de lunes a sábados de 9 am a 7 pm.
+        <br /><br /> Direccion: Av 5an Nº 23dn-68, Cali - Colombia
+        <br /><br /> Télefonos (2) 660 50 79  - (2) 667 71 16
+    </p>
+    <div style="clear: both"></div>
+</div>
 </div>
 <!--
 <div class="contact_data">

@@ -29,7 +29,7 @@
 		} else {
 			echo $title_for_layout;
 		}
-			?>
+		?>
 	</title>
 	<?php
 		echo $this -> Html -> meta('icon');
@@ -55,7 +55,7 @@
     <div id="container">
 	
         	<div id="content" class="border_radius">
-        		
+
         	<?php echo $content_for_layout; ?>
         	</div>
     		

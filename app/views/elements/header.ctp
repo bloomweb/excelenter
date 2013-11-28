@@ -99,6 +99,9 @@
         <li>
             <a href="/pages/empresa">EMPRESA</a>
         </li>
+        <li>
+            <a href="/servicios">SERVICIOS</a>
+        </li>
         <li class="ultimo">
             <a href="/contacto">CONTÁCTO</a>
         </li>
