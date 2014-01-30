@@ -73,7 +73,7 @@ class PagesController extends AppController {
 			// Cabeceras adicionales
 			$cabeceras .= 'From: ' . $userName . ' <' . $email . '>' . "\r\n";
 			//debug($mensaje);
-			if (mail("ricardopandales@gmail.com,colors_tennis1@hotmail.com", $asunto, $mensaje, $cabeceras)) {
+			if (mail("excelenter@hotmail.com,ventas225@excelenter.com.co", $asunto, $mensaje, $cabeceras)) {
 				echo true;
 			} else {
 				echo false;
